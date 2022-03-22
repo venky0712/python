@@ -2,7 +2,7 @@ from github import Github
 
 # Creating this to mass update all of our repos settings.
 
-g = Github("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") # Your personal token
+g = Github("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") # Your personal token
 
 def change_protected_branch_settings():
     # Loops through all the repos and changes the /settings/branch_protection_rules/
