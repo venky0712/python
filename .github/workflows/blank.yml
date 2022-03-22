@@ -68,5 +68,5 @@ jobs:
       - name: github token
         env:
           MY_TOKEN: ${{secrets.MY_TOKEN}}
-        run: python test.py        
+        run: python test1.py        
 
